@@ -1,5 +1,4 @@
 pluginManagement { includeBuild("../../node_modules/@react-native/gradle-plugin") }
-plugins {("com.facebook.react.setting") }
 extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
 rootProject.Name = 'RecyleVision'
 include ':app'
